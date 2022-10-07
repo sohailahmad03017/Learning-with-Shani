@@ -13,6 +13,7 @@ function App() {
   let [resultRemark, setResultRemark] = useState('');
   let [remark, setRemark] = useState("");
   let [status, setStatus] = useState("Quiz Completed");
+  let [hehe, setHehe] = useState('');
   const [questions, setQuestions] = useState([
     {
       id: 1,
@@ -44,6 +45,12 @@ function App() {
       options: ['true', 'false'],
       answer: 'false'
     },
+    {
+      id: 6,
+      question: 'RAM is a primary storage device.',
+      options: ['true', 'false'],
+      answer: 'false'
+    }
   ]);
 
   const resultCalc = (percentage) => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-export default function Countdown({ startingMinutes = 1, startingSeconds = 30, func }) {
+export default function Countdown({ startingMinutes = 0, startingSeconds = 20, func }) {
 
     const [mins, setMinutes] = useState(startingMinutes);
     const [secs, setSeconds] = useState(startingSeconds);
